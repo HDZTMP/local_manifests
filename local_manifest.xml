@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="gh"
-         fetch="https://github.com/" />
+<remote  name="hzop"
+         fetch="https://github.com/"
+         revision="16" />
 
-<!-- LineageOS OnePlus Device Trees -->
-<project name="HDZTMP/device_oneplus_waffle" path="device/oneplus/waffle" remote="gh" revision="hz" />
-<project name="HDZTMP/device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="gh" revision="16.2" />
+<!-- OnePlus Device Trees -->
+<project name="android_device_oneplus_waffle" path="device/oneplus/waffle" remote="hzop" revision="hz" />
+<project name="android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="hzop" />
 
-<!-- LineageOS OnePlus Vendor Trees -->
-<project name="OnePlus-12-Developments/proprietary_vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="gh" revision="lineage-23.2" />
-<project name="OnePlus-12-Developments/proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="gh" revision="lineage-23.2" />
+<!-- OnePlus Vendor Trees -->
+<project name="android_vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="hzop" />
+<project name="android_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="hzop" />
 
 <!-- LineageOS Hardware Trees -->
-<project name="OnePlus-12-Developments/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="16.2" />
+<project name="OnePlus-12-Developments/android_hardware_oplus" path="hardware/oplus" remote="hzop" />
 
 <!-- Kernel Source -->
-<project name="aosp-for-giulia/android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" revision="lineage-23.2" remote="gh" />
-<project name="aosp-for-giulia/android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" revision="lineage-23.2" remote="gh" />
-<project name="aosp-for-giulia/android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" revision="16.2" remote="gh" />
+<project name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" remote="hzop" />
+<project name="android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" remote="hzop" />
+<project name="android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" remote="hzop" />
 
 <!-- Extra trees -->
-<project name="OnePlus-12-Developments/proprietary_vendor_oneplus_ir" path="vendor/oneplus/ir" remote="gh" revision="16" />
-<project name="avalon-stuffs/proprietary_vendor_sony_dolby" path="vendor/sony/dolby" remote="gh" revision="16" />
-<project name="avalon-stuffs/android_packages_apps_LunarisDolby" path="packages/apps/LunarisDolby" remote="gh" revision="16" />
+<project name="android_vendor_oneplus_ir" path="vendor/oneplus/ir" remote="hzop" />
+<project name="android_vendor_sony_dolby" path="vendor/sony/dolby" remote="hzop" />
+<project name="android_packages_apps_LunarisDolby" path="packages/apps/LunarisDolby" remote="hzop" />
 
 <!-- Private-keys -->
-<project name="munch-devs/private-keys" path="vendor/private-keys" remote="gh" revision="16" />
+<project name="private-keys" path="vendor/private-keys" remote="hzop" />
 </manifest>

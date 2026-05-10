@@ -13,8 +13,8 @@
 <project name="android_vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="hzop" />
 <project name="android_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="hzop" />
 
-<!-- LineageOS Hardware Trees -->
-<project name="OnePlus-12-Developments/android_hardware_oplus" path="hardware/oplus" remote="hzop" />
+<!-- Hardware Trees -->
+<project name="android_hardware_oplus" path="hardware/oplus" remote="hzop" />
 
 <!-- Kernel Source -->
 <project name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" remote="hzop" />

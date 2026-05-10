@@ -22,7 +22,7 @@
 
 <!-- Extra trees -->
 <project name="OnePlus-12-Developments/proprietary_vendor_oneplus_ir" path="vendor/oneplus/ir" remote="gh" revision="16" />
-<project name="OnePlus-12-Developments/proprietary_vendor_sony_dolby" path="vendor/sony/dolby" remote="gh" revision="16-LD" />
+<project name="avalon-stuffs/proprietary_vendor_sony_dolby" path="vendor/sony/dolby" remote="gh" revision="16" />
 <project name="avalon-stuffs/android_packages_apps_LunarisDolby" path="packages/apps/LunarisDolby" remote="gh" revision="16" />
 
 <!-- Private-keys -->

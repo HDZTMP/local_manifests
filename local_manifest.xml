@@ -2,7 +2,7 @@
 <manifest>
 
 <remote  name="hzop"
-         fetch="https://github.com/"
+         fetch="https://github.com/HDZTMP"
          revision="16" />
 
 <!-- OnePlus Device Trees -->
